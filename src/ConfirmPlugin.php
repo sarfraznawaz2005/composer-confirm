@@ -60,7 +60,7 @@ class ConfirmPlugin implements PluginInterface, EventSubscriberInterface
     private function confirm($type)
     {
         if (!$this->io->askConfirmation("<fg=yellow>Are you sure you want to $type ?</>", false)) {
-            $this->io->writeln("<fg=yellow>Skipped</>");
+            $this->io->write("<fg=yellow>Skipped</>");
             exit;
         }
     }
