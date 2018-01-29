@@ -1,5 +1,4 @@
 /vendor
 .idea
-
-# Composer
+push.sh
 composer.phar
