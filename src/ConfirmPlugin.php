@@ -1,6 +1,6 @@
 <?php
 
-namespace Sarfraznawaz2005\ComposerConfirm;
+namespace App;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;

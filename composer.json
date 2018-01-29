@@ -16,14 +16,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "Sarfraznawaz2005\\ComposerConfirm\\": "src/"
+      "App\\": "src/"
     }
   },
   "require": {
     "composer-plugin-api": "^1.1"
   },
   "extra": {
-    "class": "ComposerConfirm\\ComposerConfirm\\ConfirmPlugin",
+    "class": "App\\ConfirmPlugin",
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }
