@@ -1,3 +1,5 @@
+[![Total Downloads](https://poser.pugx.org/sarfraznawaz2005/composer-confirm/downloads)](https://packagist.org/packages/sarfraznawaz2005/composer-confirm)
+
 # composer-confirm
 
 Displays confirmation message when using composer install/update commands.
