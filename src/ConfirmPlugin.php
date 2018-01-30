@@ -59,9 +59,9 @@ class ConfirmPlugin implements PluginInterface, EventSubscriberInterface
      */
     private function confirm($type)
     {
-        $this->io->write('Current PHP Version: <fg=black;bg=green>' . phpversion() . '</>');
+        $this->io->write('Current PHP Version: <fg=black;bg=green>' . phpversion() . '</>' . PHP_EOL);
 
-        if (!$this->io->askConfirmation("<fg=yellow>Are you sure you want to $type ?</>", false)) {
+        if (!$this->io->askConfirmation("<fg=yellow>Are you sure you want to $type ?</>" . PHP_EOL, false)) {
             $this->io->write("<fg=yellow>Skipped</>");
             exit;
         }
